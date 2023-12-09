@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Navigator</title>
+    <title>My Resume</title>
 </head>
 <body>
-    <div class="navbar">
+    <header class="navbar">
         <div class="logo">
             <img src="MinVemf.gif" alt="Mr.Bean">
         </div>
@@ -17,25 +17,21 @@
                 <li><a href="page2.html">About me</a></li>
             </ul>
         </div>
-    </div>
+    </header>
+
+    <section class="Mona-Lisa-container">
+        <img class="Mona-Lisa-image" src="Obras Leonardo Da Vinci.gif" alt="Mona Lisa gif">
+        <div class="Mona-Lisa-caption">
+            <p>Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling?</p>
+        </div>
+    </section>
 
     <img class="resume-image" src="Resume-Blog-Animation-1080.gif" alt="resume">
-
+    
     <div class="button-container">
-        <li><button class="nextNavButton"><a href="page2.html">Next page</a></button></li>
+        <button class="nextNavButton"><a href="page2.html">Next page</a></button>
     </div>
 
-    <script>
-        document.querySelector('.nextNavButton').addEventListener('click', function() {
-            // 在這裡添加導航邏輯，可以根據你的導航需求進行處理
-            // 這裡只是一個簡單的例子，你可能需要根據實際情況進行調整
-            var currentNavItem = document.querySelector('.nav-menu a:hover');
-            var nextNavItem = currentNavItem.parentElement.nextElementSibling;
-
-            if (nextNavItem) {
-                window.location.href = nextNavItem.querySelector('a').getAttribute('href');
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
