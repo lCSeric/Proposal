@@ -38,4 +38,6 @@ We hope we can successfully use JavaScript properly and combine all the work.
 
 We need to be familiar with HTML, CSS, and JavaScript. we will probably use "www.w3schools.com" to learn how a simple web page is built. 
 Eric will focus on all languages and how to make the website look attractive.
+# Final project video
+https://www.youtube.com/watch?v=qLRKfAPadrc
 
